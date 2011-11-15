@@ -51,7 +51,7 @@ Sounds like a wiki is a great place to collect all of your
 
 This is a [@holman][holman] joint.
 
-[dotfiles](https://github.com/holman/dotfiles)
-[bin](https://github.com/holman/spark/blob/master/spark)
-[wiki](https://github.com/holman/spark/wiki/Wicked-Cool-Usage)
+[dotfiles](https://github.com/holman/dotfiles)  
+[bin](https://github.com/holman/spark/blob/master/spark)  
+[wiki](https://github.com/holman/spark/wiki/Wicked-Cool-Usage)  
 [holman](https://twitter.com/holman)

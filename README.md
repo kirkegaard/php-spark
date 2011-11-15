@@ -45,7 +45,7 @@ $ awk '{ print length($0) }' spark |
 ## Wicked cool usage
 
 Sounds like a wiki is a great place to collect all of your 
-[wicked cool usage][https://github.com/holman/spark/wiki/Wicked-Cool-Usage] for spark.
+[wicked cool usage](https://github.com/holman/spark/wiki/Wicked-Cool-Usage) for spark.
 
 ## ▇▁ ⟦⟧ ▇▁
 

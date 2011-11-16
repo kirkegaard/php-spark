@@ -55,11 +55,10 @@ $ awk '{ print length($0) }' spark |
 Sounds like a wiki is a great place to collect all of your 
 [wicked cool usage](https://github.com/holman/spark/wiki/Wicked-Cool-Usage) for spark.
 
+## Todo / Good to know
+
+ * php-spark doesnt support whitespaces like `1, 2, 3`
+ * If you use space as a separator you should quotes like `$ spark "1 2 3 4"`
+ * Add support for width by using `-w` as an argument
+
 ## ▇▁ ⟦⟧ ▇▁
-
-This is a [@holman][holman] joint.
-
-[dotfiles](https://github.com/holman/dotfiles)  
-[bin](https://github.com/holman/spark/blob/master/spark)  
-[wiki](https://github.com/holman/spark/wiki/Wicked-Cool-Usage)  
-[holman](https://twitter.com/holman)

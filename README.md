@@ -5,6 +5,14 @@ See? Here's a graph of your productivity gains after using spark: ▁▂▃▅�
 
 ![Spark in PHP](https://github.com/ranza/php-spark/raw/master/ssdump.png)
 
+## Usage
+
+Regular usage:  
+`$ spark 1,2,3,4,5`
+
+Using stdin:  
+`$ echo "1,2,3,4,5" | spark --stdin`
+
 ## Cooler usage
 
 There's a lot of stuff you can do.

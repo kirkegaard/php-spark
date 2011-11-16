@@ -1,10 +1,10 @@
 #!/usr/bin/env php
 <?php
 $ticks = array('▁','▂','▃','▄','▅','▆','▇');
-$args  = explode(',', (($argv[1] == '--stdin') ? fgets(fopen('php://stdin', 'r'), 1024) : $argv[1]));
+$input = str_replace(' ', ',', trim((isset($argv[1]) ? $argv[1] : '')));
+$args  = explode(',', (($input == '--stdin') ? fgets(fopen('php://stdin', 'r'), 1024) : $input));
 $range = (max($args) - min($args)) + 1;
 
 array_map(function($val) use ($ticks, $args, $range) {
     print $ticks[round((($val - min($args)) / $range) * (count($ticks) - 1))];
-}, $args);
-print "\n";
+}, $args); print "\n";

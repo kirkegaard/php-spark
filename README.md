@@ -3,7 +3,7 @@
 
 See? Here's a graph of your productivity gains after using spark: ▁▂▃▅▇
 
-![Spark in PHP](https://github.com/ranza/php-spark/raw/master/ssdump.png)
+![Spark in PHP](https://github.com/kirkegaard/php-spark/raw/master/ssdump.png)
 
 ## Usage
 
